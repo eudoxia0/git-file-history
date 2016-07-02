@@ -14,7 +14,7 @@
                 :serial t
                 :components
                 ((:file "git-file-history"))))
-  :description "Retrieve a file&#39;s commit history in Git."
+  :description "Retrieve a file's commit history in Git."
   :long-description
   #.(uiop:read-file-string
      (uiop:subpathname *load-pathname* "README.md"))
